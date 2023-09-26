@@ -1,0 +1,61 @@
+.footer {
+    margin-top: 80px;
+    width: 1600px;
+    height: 363px;
+    background: #F1EADC;
+    margin-left: -280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerText {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 1px;
+    padding-left: 300px;
+}
+
+.footerIcon h4 {
+    margin-left: -300px;
+}
+
+.footerIcon a {
+    text-decoration: none;
+    color: #6E9C9F;
+}
+
+.footerIcon a:hover {
+    color: rgba(0, 0, 0, 0.69);
+}
+
+.footerIcon p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 3px;
+    margin-left: -300px;
+}
+
+.footerIcon img {
+    margin-left: -300px;
+}
+
+.footerMeta {
+    margin-left: -300px;
+    padding: 20px 0;
+}
+
+.footerMeta ion-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.footerMeta ion-icon:hover {
+    transform: scale(1.1);
+}

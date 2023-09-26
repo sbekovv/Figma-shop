@@ -1,0 +1,113 @@
+.CartText {
+    color: #000;
+    font-size: 55px;
+    font-weight: 500;
+    margin: 90px 0;
+}
+
+.hr {
+    margin: 26px 0 49px 0;
+}
+
+.CartTextRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartTextRow4 img {
+    position: relative;
+    left: 30px;
+    margin: -50px 0;
+}
+
+.CartTextRow2 {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.cartIngr {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    left: 740px;
+}
+
+.cartAll {
+    position: relative;
+    left: -150px;
+}
+
+.cartTovar {
+    position: relative;
+    left: 150px;
+}
+
+.cartSena {
+    position: relative;
+    left: 95px;
+}
+
+.cartIngr button {
+    padding: 10px;
+    color: #000;
+    background: none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.ion {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 1150px;
+    top: -125px;
+}
+
+.ion:active {
+    transform: translateY(2px);
+}
+
+.cartTitle {
+    position: relative;
+    top: -15px;
+    left: 170px;
+}
+
+.cartAllPrice {
+    position: relative;
+    top: -110px;
+    left: 1020px;
+}
+
+.cartPrice {
+    position: relative;
+    left: 470px;
+    top: -33px;
+}
+
+.cartTotal {
+    color: #000;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.cartBtn {
+    margin-left: -80px;
+    padding: 12px 25px;
+    background: #6E9C9F;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cartBtn:hover {
+    background: #98e0e5;
+}

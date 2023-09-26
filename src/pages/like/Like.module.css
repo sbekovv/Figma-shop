@@ -1,0 +1,78 @@
+.likeText {
+    color: #000;
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+
+.likeBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+.likeImg {
+    margin-top: 50px;
+    width: 250px;
+    height: 350px;
+    transition: transform 2s ease, box-shadow 0.3s ease;
+    border-radius: 6px;
+}
+
+.likeImg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.likeImg:active {
+    transition: 3s;
+    transform: scale(0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.likeImg img {
+    border-radius: 6px;
+}
+
+.likeImg h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.likeImg h4 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.likeImg span {
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.likeBtn {
+    padding: 12px 25px;
+    background: #6E9C9F;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.likeBtn:hover {
+    background: #98e0e5;
+}
+
+.likeBtn:active {
+    background: #7cb0b4;
+}

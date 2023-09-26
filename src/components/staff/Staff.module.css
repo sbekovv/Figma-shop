@@ -1,0 +1,44 @@
+.staff {
+    margin-top: 130px;
+}
+
+.staffText {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.staffBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+
+.staffTexts h2 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.staffTexts p {
+    width: 255px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 4px;
+    padding: 28px 0;
+}
+
+.staffTexts a {
+    color: #6E9C9F;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 4px;
+    text-decoration: none;
+}

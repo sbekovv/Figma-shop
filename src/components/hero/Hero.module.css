@@ -1,0 +1,39 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heroText  h1{
+    width: 585px;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.heroText p {
+    width: 390px;
+    color: rgba(0, 0, 0, 0.90);
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 45px 0 66px 0;
+}
+
+.heroText button {
+    padding: 22px 50px;
+    background: #6E9C9F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.heroText button:hover {
+    background: #6fa4a8;
+}
+
+.heroText button:active {
+    background: #82c4c7;
+}

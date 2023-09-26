@@ -1,0 +1,57 @@
+.mainHeader {
+    margin: 37px 0;
+}
+
+.navLogo {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+}
+
+.navList li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 0 22px;
+    text-decoration: none;
+}
+
+.navIcons {
+    margin-top: 20px;
+}
+
+.navIcons button {
+    border: 2px solid lightblue;
+    border-radius: 6px;
+    padding: 10px 13px;
+    color: lightblue;
+    background: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.navIcons ion-icon {
+    font-size: 20px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.headerSignIn {
+    position: relative;
+    left: -200px;
+}
+
+.headerIcon {
+    position: relative;
+    top: -30px;
+}
+

@@ -1,0 +1,33 @@
+.contactsText {
+    color: #000;
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 90px 0 0 0;
+}
+
+.contactsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    margin: 90px 0;
+    padding-left: 50px;
+}
+
+.contact h1 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact a:hover {
+    color: rgba(0, 0, 0, 0.69);
+}

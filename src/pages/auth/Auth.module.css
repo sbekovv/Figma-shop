@@ -1,0 +1,44 @@
+.overlay {
+    background: rgba(33,33,35,0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 55;
+}
+
+.auth {
+    width: 320px;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    background: white;
+    padding: 24px;
+}
+
+.h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+input {
+    background: rgba(209, 199, 199);
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    border: none;
+    width: 100%;
+    color: #f6f6f6;
+}
+
+input::placeholder {
+    color: #616e74;
+}
+
+input[type= 'submit'] {
+    background: #6c3eb8;
+    color: #ffd;
+}
